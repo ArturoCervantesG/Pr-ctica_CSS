@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF 8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi vacuna</title>
+        <link rel="stylesheet" href="./EstiloVacuna.css">
+    </head>
+
+    <body>
+        <div class="titulo" >
+            <br>
+            <div>
+                <img src="https://mivacuna.salud.gob.mx/img/gmx.png" class="imagen">
+            </div>
+            <br>
+        </div>
+        
+        <div class="formulario">
+            <p>
+                Pertenezco a uno de los siguientes grupos y me quiero vacunar :
+            </p>
+            <div class="lista">
+                - Tengo 15 años o más.
+            </div>
+            <div class="lista">
+                - Soy menor de edad entre 12 y 17 años con alguna comorbilidad.
+            </div>
+            <div class="curp">
+                <input type="text" name="curp1" maxlength="18" placeholder="Introducir CURP">
+            </div>
+            <div class="lista">
+                - Tengo 18 años o más y solicito el refuerzo de vacunación.
+            </div>
+            <div class="curp">
+                <input type="text" name="curp1" maxlength="18" placeholder="Introducir CURP">
+            </div>
+            <br>
+            <div class="nosoyRobot">
+                <div class="nosoyRobot_check">
+                    <input type="checkbox" name="robot">
+                    <label class="robot">No soy un robot</label>
+                </div>
+                <button type="button" id="confirmar">Confirmar Curp</button>
+            </div>
+            
+        </div>
+        <br>
+        <br>
+        <div class="botones">
+            <div class="boton" id="boton1">
+                <a href="https://mivacuna.salud.gob.mx/pdf/registro_vacuna_imgns_c6.pdf" id="boton1">Guia para registrarse en mi vacuna</a>
+            </div>
+            <div class="boton" id="boton2">
+                <a href="https://www.gob.mx/curp/" id="boton2">¿No conoces tu CURP? consultala aqui</a>
+            </div>
+            <div class="boton" id="boton3">
+                <a href="https://mivacuna.salud.gob.mx/pdf/aviso_de_privacidad_integral.pdf" id="boton3">Aviso de privacidad</a>
+            </div>
+            <div class="boton" id="boton4">
+                <a href="https://mivacuna.salud.gob.mx/pdf/info_segunda_dosis.pdf" id="boton4">Informacion segunda dosis</a>
+            </div>
+        </div>
+    </body>
+</html>
